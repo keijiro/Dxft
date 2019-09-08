@@ -217,7 +217,7 @@ VisualEffect:
   m_GameObject: {fileID: 992109061}
   m_Enabled: 1
   m_Asset: {fileID: 8926484042661614526, guid: 439ef006756b72b43b12b49e20261be9, type: 3}
-  m_StartSeed: 760002711
+  m_StartSeed: 144452437
   m_ResetSeedOnPlay: 0
   m_PropertySheet:
     m_Float:
@@ -321,7 +321,7 @@ VisualEffect:
   m_GameObject: {fileID: 1172716991}
   m_Enabled: 1
   m_Asset: {fileID: 8926484042661614526, guid: 60f1a761150227542b374ecc24d4fa31, type: 3}
-  m_StartSeed: 1663292691
+  m_StartSeed: 1331982282
   m_ResetSeedOnPlay: 0
   m_PropertySheet:
     m_Float:
