@@ -188,6 +188,7 @@ VFXRenderer:
   m_Materials:
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -472,7 +473,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 9bcb926bf0ad708d88f67fe5c7519ed7, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 01ddd25af74b349fab668205cbc2f00a, type: 2}
 --- !u!4 &1829778747
 Transform:
   m_ObjectHideFlags: 0
