@@ -9,6 +9,11 @@
     }
   ],
   "dependencies": {
+    "com.unity.package-manager-ui": "2.2.0",
+    "com.unity.render-pipelines.high-definition": "6.9.1-preview",
+    "com.unity.timeline": "1.1.0",
+    "jp.keijiro.dkvfx": "0.1.1",
+    "jp.keijiro.recorder.ffmpeg": "0.0.2",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.director": "1.0.0",
     "com.unity.modules.imageconversion": "1.0.0",
@@ -17,11 +22,6 @@
     "com.unity.modules.physics": "1.0.0",
     "com.unity.modules.physics2d": "1.0.0",
     "com.unity.modules.ui": "1.0.0",
-    "com.unity.modules.vr": "1.0.0",
-    "com.unity.package-manager-ui": "2.2.0",
-    "com.unity.render-pipelines.high-definition": "6.9.1-preview",
-    "com.unity.timeline": "1.1.0",
-    "jp.keijiro.dkvfx": "0.1.1",
-    "jp.keijiro.recorder.ffmpeg": "0.0.2"
+    "com.unity.modules.vr": "1.0.0"
   }
 }
