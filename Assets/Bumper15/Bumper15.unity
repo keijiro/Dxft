@@ -169,7 +169,7 @@ PlayableDirector:
   - key: {fileID: -6364119959081724798, guid: 46b079ddcb2008e598cabf69ce28f4fa, type: 2}
     value: {fileID: 868728978}
   - key: {fileID: 3433572921151471796, guid: 46b079ddcb2008e598cabf69ce28f4fa, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 706984384}
   m_ExposedReferences:
     m_References:
     - 421605d66a06af8409c33e4b131dc3ce: {fileID: 1380850554}
@@ -252,8 +252,8 @@ VisualEffect:
   m_GameObject: {fileID: 155654799}
   m_Enabled: 1
   m_Asset: {fileID: 8926484042661614526, guid: ead8a31a0ee30534d8f0a26615a5a50a, type: 3}
-  m_StartSeed: 0
-  m_ResetSeedOnPlay: 1
+  m_StartSeed: 1831509099
+  m_ResetSeedOnPlay: 0
   m_PropertySheet:
     m_Float:
       m_Array:
@@ -322,7 +322,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 236771058}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -634,7 +634,7 @@ Light:
   serializedVersion: 9
   m_Type: 2
   m_Color: {r: 1, g: 0.23113209, b: 0.23113209, a: 1}
-  m_Intensity: 15.915494
+  m_Intensity: 0.020171218
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -793,8 +793,8 @@ VisualEffect:
   m_GameObject: {fileID: 432164609}
   m_Enabled: 1
   m_Asset: {fileID: 8926484042661614526, guid: 4f4bdb2504aeba522a32189b4a0499c8, type: 3}
-  m_StartSeed: 0
-  m_ResetSeedOnPlay: 1
+  m_StartSeed: 1660219767
+  m_ResetSeedOnPlay: 0
   m_PropertySheet:
     m_Float:
       m_Array:
@@ -846,6 +846,7 @@ GameObject:
   - component: {fileID: 706984387}
   - component: {fileID: 706984386}
   - component: {fileID: 706984385}
+  - component: {fileID: 706984388}
   m_Layer: 0
   m_Name: Waves
   m_TagString: Untagged
@@ -900,13 +901,16 @@ VisualEffect:
   m_GameObject: {fileID: 706984384}
   m_Enabled: 1
   m_Asset: {fileID: 8926484042661614526, guid: 2bda46dfe91641705ab2f0115e9fabd5, type: 3}
-  m_StartSeed: 0
-  m_ResetSeedOnPlay: 1
+  m_StartSeed: 476989108
+  m_ResetSeedOnPlay: 0
   m_PropertySheet:
     m_Float:
       m_Array:
       - m_Value: 0
         m_Name: Spawn Rate
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Spawn Count
         m_Overridden: 1
     m_Vector2f:
       m_Array: []
@@ -942,6 +946,42 @@ Transform:
   m_Father: {fileID: 868728977}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &706984388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706984384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 390e5cebc37d6d7258bdb58f0380f9d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noteFilter:
+    note: 1
+    octave: 0
+  noteOnEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 706984386}
+        m_MethodName: SendEvent
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Trigger
+          m_BoolArgument: 0
+        m_CallState: 1
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  noteOffEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &718207797
 GameObject:
   m_ObjectHideFlags: 0
@@ -1728,7 +1768,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930998955}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1996,8 +2036,8 @@ VisualEffect:
   m_GameObject: {fileID: 1502471981}
   m_Enabled: 1
   m_Asset: {fileID: 8926484042661614526, guid: 71cf269776e73cae9923203f2b116a16, type: 3}
-  m_StartSeed: 0
-  m_ResetSeedOnPlay: 1
+  m_StartSeed: 1478578672
+  m_ResetSeedOnPlay: 0
   m_PropertySheet:
     m_Float:
       m_Array:
@@ -2172,7 +2212,7 @@ Light:
   serializedVersion: 9
   m_Type: 2
   m_Color: {r: 0.23113209, g: 0.51434827, b: 1, a: 1}
-  m_Intensity: 15.915494
+  m_Intensity: 0.020171218
   m_Range: 20
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
