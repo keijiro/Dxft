@@ -19,4 +19,5 @@ Desktop.ini
 /Recordings
 /Temp
 
+/Assets/Audio/*.wav
 /Assets/StreamingAssets/*.mov
