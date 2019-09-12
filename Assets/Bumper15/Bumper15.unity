@@ -149,7 +149,7 @@ PlayableDirector:
   m_PlayableAsset: {fileID: 11400000, guid: 46b079ddcb2008e598cabf69ce28f4fa, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
-  m_DirectorUpdateMode: 0
+  m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: -4732108581021381104, guid: 46b079ddcb2008e598cabf69ce28f4fa, type: 2}
@@ -377,7 +377,7 @@ VisualEffect:
         m_Overridden: 1
     m_Vector3f:
       m_Array:
-      - m_Value: {x: 1.48, y: 1.2586185, z: 1.2586185}
+      - m_Value: {x: 1.48, y: 0.69136846, z: 0.69136846}
         m_Name: Amplitude
         m_Overridden: 1
     m_Vector4f:
@@ -1783,7 +1783,7 @@ VisualEffect:
         m_Overridden: 1
     m_Vector3f:
       m_Array:
-      - m_Value: {x: 1.48, y: 2, z: 2}
+      - m_Value: {x: 1.48, y: 0.69136846, z: 0.69136846}
         m_Name: Amplitude
         m_Overridden: 1
     m_Vector4f:
@@ -2468,7 +2468,7 @@ MonoBehaviour:
   volumeAnchorOverride: {fileID: 0}
   antialiasing: 3
   SMAAQuality: 2
-  dithering: 0
+  dithering: 1
   stopNaNs: 0
   physicalParameters:
     m_Iso: 200
