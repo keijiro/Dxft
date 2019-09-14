@@ -21,6 +21,9 @@ Desktop.ini
 
 /Assets/Audio/*.wav
 /Assets/StreamingAssets/*.mov
-/Composite/*.mp4
-/Composite/*.mov
+/Assets/Title/*.png
+/Composite/Source/*.mp4
+/Composite/Source/*.mov
+/Composite/Render/*.mov
+/Composite/Render/*.mp4
 /Composite/Adobe*
