@@ -1044,7 +1044,7 @@ VisualEffectResource:
       \   float tmp_ba = SampleCurve(uniform_b,Param);\n\t\t\t\t    float3 tmp_bb
       = float3(tmp_ba, tmp_ba, tmp_ba);\n\t\t\t\t    SetAttribute_FDD06EC7( /*inout
       */color, tmp_bb);\n\t\t\t\t}\n\t\t\t\t{\n\t\t\t\t    SetAttribute_545F0ED( /*inout
-      */color, float3(1.498039,1.498039,1.498039));\n\t\t\t\t}\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\tif
+      */color, float3(2.608238,2.608238,2.608238));\n\t\t\t\t}\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\tif
       (!alive)\n\t\t\t\t\treturn o;\n\t\t\t\t\n\t\t\t#if VFX_PRIMITIVE_QUAD\n\t\t\t\n\t\t\t\to.VFX_VARYING_UV.x
       = float(id & 1);\n\t\t\t\to.VFX_VARYING_UV.y = float((id & 2) >> 1);\n\t\t\t\tconst
       float2 vOffsets = o.VFX_VARYING_UV.xy - 0.5f;\n\t\t\t\t\n\t\t\t#elif VFX_PRIMITIVE_TRIANGLE\n\t\t\t\n\t\t\t\tconst
@@ -1543,7 +1543,7 @@ VisualEffectResource:
         - m_ExpressionIndex: 15
           m_Value: {x: 1, y: 0.5, z: 2}
         - m_ExpressionIndex: 34
-          m_Value: {x: 1.4980392, y: 1.4980392, z: 1.4980392}
+          m_Value: {x: 2.6082377, y: 2.6082377, z: 2.6082377}
         - m_ExpressionIndex: 38
           m_Value: {x: 5, y: 5, z: 5}
         - m_ExpressionIndex: 39
@@ -7010,7 +7010,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":1.4980392456054688,"y":1.4980392456054688,"z":1.4980392456054688}'
+      m_SerializableObject: '{"x":2.6082377433776857,"y":2.6082377433776857,"z":2.6082377433776857}'
     m_Space: 2147483647
   m_Property:
     name: Color

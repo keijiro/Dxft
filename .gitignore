@@ -20,10 +20,11 @@ Desktop.ini
 /Temp
 
 /Assets/Audio/*.wav
-/Assets/StreamingAssets/*.mov
-/Assets/Title/*.png
-/Composite/Source/*.mp4
-/Composite/Source/*.mov
+/Assets/Titles/Textures/*.png
 /Composite/Render/*.mov
 /Composite/Render/*.mp4
+/Composite/Source/*.mov
+/Composite/Source/*.mp4
 /Composite/Adobe*
+
+borg.sh
