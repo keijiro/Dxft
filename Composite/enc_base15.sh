@@ -2,8 +2,8 @@
 
 composite()
 {
-    INDEX=`printf "%02d" $(( $1 + 1 ))`
-    TITLE_POS=$(( $1 * 4 ))
+    INDEX=`printf "%02d" $1`
+    TITLE_POS=$(( ($1 - 1) * 4 ))
 
     BASE="Source/Base15.mov"
     MASK="Source/Mask.png"
@@ -40,10 +40,20 @@ composite()
     ffmpeg -y -v 0 -i "$RENDER" -i "$AUDIO" -pix_fmt yuv420p "$PREVIEW"
 }
 
-composite 8 &
-composite 9 &
-composite 10 &
-composite 11 &
-composite 12 &
-composite 13 &
-wait
+composite 15
+composite 16
+composite 17
+composite 18
+composite 19
+composite 20
+composite 21
+composite 22
+composite 23
+composite 24
+composite 25
+composite 26
+composite 27
+composite 28
+composite 29
+composite 30
+composite 31
