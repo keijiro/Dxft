@@ -149,7 +149,7 @@ PlayableDirector:
   m_PlayableAsset: {fileID: 11400000, guid: 52bffcab308341c46a4b7da2bd825cfc, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
-  m_DirectorUpdateMode: 0
+  m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: -4732108581021381104, guid: 46b079ddcb2008e598cabf69ce28f4fa, type: 2}
@@ -542,7 +542,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240617016}
   m_LocalRotation: {x: -0.03925978, y: 0, z: 0, w: 0.9992291}
-  m_LocalPosition: {x: 0.06, y: 1.4, z: 0}
+  m_LocalPosition: {x: 0, y: 1.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1665205765}
@@ -680,7 +680,7 @@ Light:
   serializedVersion: 9
   m_Type: 2
   m_Color: {r: 1, g: 0.28773582, b: 0.57151365, a: 1}
-  m_Intensity: 0
+  m_Intensity: 17.507044
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1126,7 +1126,7 @@ Light:
   serializedVersion: 9
   m_Type: 2
   m_Color: {r: 1, g: 0.4905175, b: 0.19339621, a: 1}
-  m_Intensity: 0.1410771
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4236,7 +4236,7 @@ Light:
   serializedVersion: 9
   m_Type: 2
   m_Color: {r: 0.062745094, g: 0.846704, b: 1, a: 1}
-  m_Intensity: 0.1410771
+  m_Intensity: 0
   m_Range: 20
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4376,7 +4376,7 @@ VisualEffect:
         m_Overridden: 1
     m_Vector2f:
       m_Array:
-      - m_Value: {x: 4, y: 1.5}
+      - m_Value: {x: 6.5, y: 1.5}
         m_Name: Extent
         m_Overridden: 1
     m_Vector3f:
@@ -4390,7 +4390,7 @@ VisualEffect:
       - m_Value: 6
         m_Name: FlipBook_y
         m_Overridden: 1
-      - m_Value: 16
+      - m_Value: 26
         m_Name: FlipBook_x
         m_Overridden: 1
     m_Matrix4x4f:
@@ -4432,7 +4432,7 @@ VisualEffect:
         m_Overridden: 1
     m_NamedObject:
       m_Array:
-      - m_Value: {fileID: 2800000, guid: e7876cf5bac1a0d4b9f1e0168c6949c1, type: 3}
+      - m_Value: {fileID: 2800000, guid: 9fc6f27c0b5863d4b9501a27ef2a0bac, type: 3}
         m_Name: Texture
         m_Overridden: 1
     m_Bool:

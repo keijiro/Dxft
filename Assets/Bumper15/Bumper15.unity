@@ -262,7 +262,7 @@ VisualEffect:
       - m_Value: 0
         m_Name: Rotation
         m_Overridden: 1
-      - m_Value: 4
+      - m_Value: 0.62499994
         m_Name: Base Size
         m_Overridden: 1
     m_Vector2f:
@@ -410,7 +410,7 @@ VisualEffect:
         m_Overridden: 1
     m_Vector3f:
       m_Array:
-      - m_Value: {x: 1.48, y: 0.69136846, z: 0.69136846}
+      - m_Value: {x: 1.48, y: 0.57614034, z: 0.57614034}
         m_Name: Amplitude
         m_Overridden: 1
     m_Vector4f:
@@ -504,7 +504,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240617016}
   m_LocalRotation: {x: -0.03925978, y: 0, z: 0, w: 0.9992291}
-  m_LocalPosition: {x: 0.06, y: 1.4, z: 0}
+  m_LocalPosition: {x: 0, y: 1.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1665205765}
@@ -698,7 +698,7 @@ Light:
   serializedVersion: 9
   m_Type: 2
   m_Color: {r: 1, g: 0.4905175, b: 0.19339621, a: 1}
-  m_Intensity: 13.428701
+  m_Intensity: 2.486796
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -862,7 +862,7 @@ VisualEffect:
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 10
+      - m_Value: 1.111111
         m_Name: Spawn Rate
         m_Overridden: 1
       - m_Value: 1.1
@@ -979,7 +979,7 @@ VisualEffect:
       - m_Value: 0
         m_Name: Spawn Rate
         m_Overridden: 1
-      - m_Value: 0
+      - m_Value: 1
         m_Name: Spawn Count
         m_Overridden: 1
     m_Vector2f:
@@ -2219,7 +2219,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 890312808}
-  m_LocalRotation: {x: 0.23038882, y: 0.3641226, z: -0.09346507, w: 0.8975522}
+  m_LocalRotation: {x: 0.25857204, y: 0.41311875, z: -0.12357693, w: 0.86440855}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2307,7 +2307,7 @@ VisualEffect:
         m_Overridden: 1
     m_Vector3f:
       m_Array:
-      - m_Value: {x: 1.48, y: 0.69136846, z: 0.69136846}
+      - m_Value: {x: 1.48, y: 0.57614034, z: 0.57614034}
         m_Name: Amplitude
         m_Overridden: 1
     m_Vector4f:
@@ -2556,10 +2556,10 @@ VisualEffect:
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 0.018
+      - m_Value: 0.389404
         m_Name: Spawn Rate
         m_Overridden: 1
-      - m_Value: 0.027
+      - m_Value: 0.625
         m_Name: Coloring
         m_Overridden: 1
     m_Vector2f:
@@ -2758,7 +2758,7 @@ Light:
   serializedVersion: 9
   m_Type: 2
   m_Color: {r: 0.062745094, g: 0.846704, b: 1, a: 1}
-  m_Intensity: 13.428701
+  m_Intensity: 2.486796
   m_Range: 20
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3245,7 +3245,7 @@ VisualEffect:
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 0.059
+      - m_Value: 0.07812499
         m_Name: Base Size
         m_Overridden: 1
     m_Vector2f:
