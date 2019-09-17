@@ -37,34 +37,40 @@ composite()
     ffmpeg -y -v 0 -i "$RENDER" -i "$AUDIO" -pix_fmt yuv420p "$PREVIEW"
 }
 
-composite 1
-composite 2
-composite 3
-composite 4
-composite 5
-composite 6
-composite 7
-composite 8
-composite 9
-composite 10
-composite 11
-composite 12
-composite 13
-composite 14
-composite 15
-composite 16
-composite 17
-composite 18
-composite 19
-composite 20
-composite 21
-composite 22
-composite 23
-composite 24
-composite 25
-composite 26
-composite 27
-composite 28
-composite 29
-composite 30
-composite 31
+#composite 1
+#composite 2
+#composite 3
+#composite 4
+#composite 5
+#composite 6
+
+composite 7 &
+composite 8 &
+composite 9 &
+composite 10 &
+composite 11 &
+composite 12 &
+wait
+
+composite 13 &
+composite 14 &
+composite 15 &
+composite 16 &
+composite 18 &
+composite 19 &
+wait
+
+composite 20 &
+composite 21 &
+composite 22 &
+composite 23 &
+composite 24 &
+composite 25 &
+wait
+
+composite 26 &
+composite 27 &
+composite 28 &
+composite 29 &
+composite 30 &
+wait

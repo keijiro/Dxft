@@ -21,10 +21,8 @@ Desktop.ini
 
 /Assets/Audio/*.wav
 /Assets/Titles/Textures/*.png
-/Composite/Render/*.mov
-/Composite/Render/*.mp4
-/Composite/Source/*.mov
-/Composite/Source/*.mp4
+/Composite/Render
+/Composite/Source
 /Composite/Adobe*
 
 borg.sh
