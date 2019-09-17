@@ -19,6 +19,8 @@ Desktop.ini
 /Recordings
 /Temp
 
+/Ableton/*.wav
+/Ableton/Backup
 /Assets/Audio/*.wav
 /Assets/Titles/Textures/*.png
 /Composite/Render
