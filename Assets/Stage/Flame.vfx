@@ -605,9 +605,9 @@ VisualEffectResource:
       \       float age = (float)0;\n        \n\n#if VFX_USE_PARTICLEID_CURRENT\n
       \        particleId = particleIndex;\n#endif\n#if VFX_USE_SEED_CURRENT\n        seed
       = WangHash(particleIndex ^ systemSeed);\n#endif\n        \n        {\n            SetAttribute_CAC295B2(
-      /*inout */position,  /*inout */seed, float3(-4,-1,0), float3(4,-1,0));\n        }\n
-      \       {\n            SetAttribute_F01429A3( /*inout */lifetime,  /*inout */seed,
-      (float)2.5, (float)3.3);\n        }\n        {\n            SetAttribute_3278B545(
+      /*inout */position,  /*inout */seed, float3(-4,-1.05,0), float3(4,-1.05,0));\n
+      \       }\n        {\n            SetAttribute_F01429A3( /*inout */lifetime,
+      \ /*inout */seed, (float)2.5, (float)3.3);\n        }\n        {\n            SetAttribute_3278B545(
       /*inout */size,  /*inout */seed, (float)0.04, (float)0.08);\n        }\n        {\n
       \           SetAttribute_48A7BD6A( /*inout */angleX,  /*inout */angleY,  /*inout
       */angleZ,  /*inout */seed, float3(-180,-180,-180), float3(180,180,180));\n        }\n
@@ -1421,9 +1421,9 @@ VisualEffectResource:
         - m_ExpressionIndex: 18
           m_Value: {x: -180, y: -180, z: -180}
         - m_ExpressionIndex: 23
-          m_Value: {x: 4, y: -1, z: 0}
+          m_Value: {x: 4, y: -1.05, z: 0}
         - m_ExpressionIndex: 24
-          m_Value: {x: -4, y: -1, z: 0}
+          m_Value: {x: -4, y: -1.05, z: 0}
         - m_ExpressionIndex: 28
           m_Value: {x: 10, y: 10, z: 10}
         - m_ExpressionIndex: 29
@@ -2454,7 +2454,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":-4.0,"y":-1.0,"z":0.0}}'
+      m_SerializableObject: '{"position":{"x":-4.0,"y":-1.0499999523162842,"z":0.0}}'
     m_Space: 0
   m_Property:
     name: A
@@ -2630,7 +2630,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":4.0,"y":-1.0,"z":0.0}}'
+      m_SerializableObject: '{"position":{"x":4.0,"y":-1.0499999523162842,"z":0.0}}'
     m_Space: 0
   m_Property:
     name: B
